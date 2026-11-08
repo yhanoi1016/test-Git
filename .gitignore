@@ -1,0 +1,13 @@
+﻿# Dữ liệu bệnh nhân / ảnh y tế - KHÔNG đưa lên GitHub
+*.zip
+SWI/
+TOF/
+icas/
+FeatureSelection/
+*.dcm
+*.xlsx
+*.pptx
+*.docx
+annotation_checkpoint.json
+__pycache__/
+*.pyc
