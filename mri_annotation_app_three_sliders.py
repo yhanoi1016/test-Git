@@ -1,3 +1,4 @@
+# [test-comment] MRI annotation app (three-slider version) - comment added to test Git change tracking.
 import os
 import sys
 import json
@@ -5,9 +6,9 @@ import math
 import traceback
 from datetime import datetime
 
-import numpy as np
-import pandas as pd
-import pydicom
+import numpy as np  # [test-comment] numerical arrays for image data
+import pandas as pd  # [test-comment] tabular I/O for annotations/status
+import pydicom  # [test-comment] DICOM file reading
 
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (
